@@ -1,0 +1,33 @@
+method: grid
+parameters:
+  dataset:
+    values:
+    - synthetic
+  percentage:
+    values:
+    - 10
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    - 80
+    - 90
+    - 100
+  sets:
+    values:
+    - 1
+  split:
+    values:
+    - L100_L100x20_U10000_V100_T10000_seed1101
+    - L100_L100x20_U10000_V100_T10000_seed1102
+    - L100_L100x20_U10000_V100_T10000_seed1103
+    - L100_L100x20_U10000_V100_T10000_seed1104
+    - L100_L100x20_U10000_V100_T10000_seed1105
+    - L100_L100x20_U10000_V100_T10000_seed1106
+    - L100_L100x20_U10000_V100_T10000_seed1107
+    - L100_L100x20_U10000_V100_T10000_seed1108
+    - L100_L100x20_U10000_V100_T10000_seed1109
+    - L100_L100x20_U10000_V100_T10000_seed1110
+program: scripts/inc_labels_competitors.py

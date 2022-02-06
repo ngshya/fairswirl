@@ -1,0 +1,112 @@
+method: grid
+parameters:
+  ae_encoder_1:
+    values:
+    - 15
+  ae_encoder_2:
+    values:
+    - 12
+  ae_encoder_3:
+    values:
+    - 14
+  ae_encoder_4:
+    values:
+    - 9
+  ae_encoder_5:
+    values:
+    - 3
+  ae_encoder_layers:
+    values:
+    - 3
+  cl_encoder_1:
+    values:
+    - 10
+  cl_encoder_2:
+    values:
+    - 3
+  cl_encoder_3:
+    values:
+    - 10
+  cl_encoder_layers:
+    values:
+    - 2
+  dataset:
+    values:
+    - adult
+  di_encoder_1:
+    values:
+    - 5
+  di_encoder_2:
+    values:
+    - 16
+  di_encoder_3:
+    values:
+    - 10
+  di_encoder_layers:
+    values:
+    - 3
+  epochs:
+    values:
+    - 200
+  learning_rate:
+    values:
+    - 0.001
+  optimizer:
+    values:
+    - Adam
+  sets:
+    values:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  split:
+    values:
+    - L100_L100x20_U10000_V100_T10000_seed1101
+    - L100_L100x20_U10000_V100_T10000_seed1102
+    - L100_L100x20_U10000_V100_T10000_seed1103
+    - L100_L100x20_U10000_V100_T10000_seed1104
+    - L100_L100x20_U10000_V100_T10000_seed1105
+    - L100_L100x20_U10000_V100_T10000_seed1106
+    - L100_L100x20_U10000_V100_T10000_seed1107
+    - L100_L100x20_U10000_V100_T10000_seed1108
+    - L100_L100x20_U10000_V100_T10000_seed1109
+    - L100_L100x20_U10000_V100_T10000_seed1110
+  ths_s:
+    values:
+    - 0.5
+  ths_s_rf:
+    values:
+    - 0.5
+  ths_y:
+    values:
+    - 0.5
+  ths_y_rf:
+    values:
+    - 0.5
+  w_cla:
+    values:
+    - 61.83146616402778
+  w_dis:
+    values:
+    - 38.8530807044244
+  w_rec:
+    values:
+    - 67.5743604790751
+program: scripts/inc_labels_fairswirl_other_classifiers.py

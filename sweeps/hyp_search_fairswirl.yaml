@@ -1,0 +1,73 @@
+method: bayes
+metric:
+  goal: maximize
+  name: dis_mcc
+parameters:
+  ae_encoder_1:
+    max: 16
+    min: 2
+  ae_encoder_2:
+    max: 16
+    min: 2
+  ae_encoder_3:
+    max: 16
+    min: 2
+  ae_encoder_4:
+    max: 16
+    min: 2
+  ae_encoder_5:
+    max: 16
+    min: 2
+  ae_encoder_layers:
+    max: 4
+    min: 1
+  cl_encoder_1:
+    max: 16
+    min: 2
+  cl_encoder_2:
+    max: 16
+    min: 2
+  cl_encoder_3:
+    max: 16
+    min: 2
+  cl_encoder_layers:
+    max: 3
+    min: 1
+  dataset:
+    values:
+    - synthetic
+  di_encoder_1:
+    max: 16
+    min: 2
+  di_encoder_2:
+    max: 16
+    min: 2
+  di_encoder_3:
+    max: 16
+    min: 2
+  di_encoder_layers:
+    max: 3
+    min: 1
+  epochs:
+    values:
+    - 200
+  learning_rate:
+    values:
+    - 0.01
+    - 0.001
+  optimizer:
+    values:
+    - Adam
+  split:
+    values:
+    - L100_L100x20_U10000_V100_T10000_seed1101
+  w_cla:
+    max: 100
+    min: 0.1
+  w_dis:
+    max: 100
+    min: 0.1
+  w_rec:
+    max: 100
+    min: 0.1
+program: scripts/hyp_search_fairswirl.py

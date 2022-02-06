@@ -1,0 +1,21 @@
+method: bayes
+metric:
+  goal: maximize
+  name: dis_mcc
+parameters:
+  base_model:
+    values:
+    - LR
+    - RF
+    - SVC
+    - KNC
+  dataset:
+    values:
+    - synthetic
+  k:
+    max: 500
+    min: 1
+  split:
+    values:
+    - L100_L100x20_U10000_V100_T10000_seed1101
+program: scripts/hyp_search_fesf.py
