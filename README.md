@@ -7,7 +7,7 @@ Fair Semi-supervised with Representation Learning
 In order to recreate the Python environment, use the `package-list.txt` file:
 
 ```bash
-conda create --name <env> --file <this file>
+conda create --name <env> --file package-list.txt
 ```
 
 then, activate the env. 
