@@ -26,7 +26,7 @@ In our experiments, we have used the seeds from 1101 to 1110.
 
 ## Experiments with Weights & Biases
 
-The experiments are performed by using [Weights & Biases](https://wandb.ai/). Inside the folder `sweeps` there sample YAML files for each experiment presented in the paper. Just remember to adjust the dataset and the splits names inside the YAML file accordingly. 
+The experiments are performed by using [Weights & Biases](https://wandb.ai/). Inside the folder `sweeps` there are sample YAML files for each experiment presented in the paper. Just remember to adjust the dataset and the splits names inside the YAML file accordingly. 
 
 To run the hyperparameters search, use the following YAML files: 
 - `hyp_search_fairswirl.yaml` (FairSwiRL)
