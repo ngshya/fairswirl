@@ -1,5 +1,5 @@
 # FairSwiRL
-Fair Semi-supervised with Representation Learning
+Fair Semi-supervised Classification with Representation Learning
 
 
 ## Python Environment
