@@ -1,4 +1,4 @@
-program: scripts/vfae_hyp_search.py
+program: scripts/hyp_search_vfae.py
 method: bayes
 metric:
   name: dis_mcc
