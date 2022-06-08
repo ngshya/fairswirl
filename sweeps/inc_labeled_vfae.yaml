@@ -1,0 +1,40 @@
+method: grid
+parameters:
+  dataset:
+    values:
+      - synthetic
+  sets:
+    values:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+  split:
+    values:
+      - L100_L100x20_U10000_V100_T10000_seed1101
+      - L100_L100x20_U10000_V100_T10000_seed1102
+      - L100_L100x20_U10000_V100_T10000_seed1103
+      - L100_L100x20_U10000_V100_T10000_seed1104
+      - L100_L100x20_U10000_V100_T10000_seed1105
+      - L100_L100x20_U10000_V100_T10000_seed1106
+      - L100_L100x20_U10000_V100_T10000_seed1107
+      - L100_L100x20_U10000_V100_T10000_seed1108
+      - L100_L100x20_U10000_V100_T10000_seed1109
+      - L100_L100x20_U10000_V100_T10000_seed1110
+program: scripts/dsa_inc_labeled_vfae.py
