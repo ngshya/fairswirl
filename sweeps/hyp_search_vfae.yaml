@@ -5,7 +5,7 @@ metric:
   goal: maximize
 parameters:
   dataset:
-    values: [""]
+    values: ["synthetic"]
   split: 
     values: ["L100_L100x20_U10000_V100_T10000_seed1101"]
   sets:
