@@ -37,4 +37,4 @@ parameters:
       - L100_L100x20_U10000_V100_T10000_seed1108
       - L100_L100x20_U10000_V100_T10000_seed1109
       - L100_L100x20_U10000_V100_T10000_seed1110
-program: scripts/dsa_inc_labeled_vfae.py
+program: scripts/inc_labeled_vfae.py
