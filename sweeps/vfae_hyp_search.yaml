@@ -1,0 +1,38 @@
+program: scripts/vfae_hyp_search.py
+method: bayes
+metric:
+  name: dis_mcc
+  goal: maximize
+parameters:
+  dataset:
+    values: [""]
+  split: 
+    values: ["L100_L100x20_U10000_V100_T10000_seed1101"]
+  sets:
+    values: [1]
+  z1:
+    values: [4, 8, 16]
+  z2:
+    values: [4, 8, 16]
+  enc1_hid:
+    values: [4, 8, 16, 32]
+  enc2_hid:
+    values: [4, 8, 16, 32]
+  dec1_hid:
+    values: [4, 8, 16, 32]
+  dec2_hid:
+    values: [4, 8, 16, 32]
+  us_hid:
+    values: [4, 8, 16, 32]
+  alpha:
+    values: [0.1, 0.5, 1.0, 5.0, 10.0]
+  beta:
+    values: [0.1, 0.5, 1.0, 5.0, 10.0]
+  D:
+    values: [5, 100, 200]
+  gamma:
+    values: [1.0]
+  lr:
+    values: [0.01, 0.001]
+  epochs:
+    values: [10, 50, 100, 50, 200]
