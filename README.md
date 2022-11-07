@@ -42,5 +42,6 @@ To run the experiments, use one of the following sample YAML files with the hype
 - `inc_labels_vfae.yaml` (VFAE, number of labeled instances from 100 to 2000)
 - `inc_labels_fairswirl_10_100.yaml` (FairSwiRL+RF, FairSwiRL+RF WOUD, DD+RF, number of labeled instances from 10 to 100)
 - `inc_labels_competitors_10_100.yaml` (FESF, FairSSL, number of labeled instances from 10 to 100)
+- `inc_labels_biased.yaml` (experiments with very biased labeled instances)
 
 
